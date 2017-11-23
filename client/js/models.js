@@ -34,7 +34,8 @@ class Pawn {
     this.coord = coord;
   }
   advance(currentCoord, desiredCoord, board) {
-    const colNotation = "abcdefgh";
+    if ((!squareIsOccupied(board), desiredCoord)) {
+    }
   }
   capture() {}
 }
